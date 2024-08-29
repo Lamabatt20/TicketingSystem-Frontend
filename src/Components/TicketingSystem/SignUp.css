@@ -1,0 +1,99 @@
+.container-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-signup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.welcome-signup img {
+    width: 30px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.welcome-signup .tiki-signup {
+    color: #1e90ff;
+    font-weight: bold;
+}
+
+.header-signup {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-signup .text-signup {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-signup .underline-signup {
+    width: 60px;
+    height: 3px;
+    background-color: #1e90ff;
+    margin: 10px auto 0;
+}
+
+.inputs-signup {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.inputs-signup img {
+    position: absolute;
+    width: 20px;
+    height: auto;
+    top: 50%;
+    left: 5px; 
+    transform: translateY(-50%);
+}
+
+.inputs-signup input {
+    padding: 4px 4px 4px 45px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 45px); 
+    font-size: 14px;
+    height: 30px;
+}
+
+.signup-button {
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.signup-button:hover {
+    background-color: #0056b3;
+}
+
+.signup-link {
+    margin-top: 10px;
+}
+
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
